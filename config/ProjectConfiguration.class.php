@@ -9,7 +9,6 @@ class ProjectConfiguration extends sfProjectConfiguration
   {
     $this->enablePlugins('sfDoctrinePlugin');
     $this->enablePlugins('sfDoctrineGuardPlugin');
-　　 $this->enablePlugins('sfFeed2Plugin');
-    $this->enablePlugins('sfMessageWithLayoutPlugin');
+
   }
 }
